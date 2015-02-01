@@ -1,0 +1,32 @@
+{
+    "name": "gitbook-theme-appcelerator",
+    "description": "A GitBook theme for Appcelerator",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "1.18.2"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": "*"
+    },
+    "scripts": {
+        "test": "export TESTING=true; mocha --reporter list"
+    },
+    "homepage": "https://github.com/tzmartin/gitbook-theme-appcelerator",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tzmartin/gitbook-theme-appcelerator"
+    },
+    "author": "Appcelerator Inc.",
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/tzmartin/gitbook-theme-appcelerator/issues"
+    },
+    "contributors": [
+        {
+            "name": "Terry Martin",
+            "email": "terryzmartin@gmail.com"
+        }
+    ]
+}
